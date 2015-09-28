@@ -65,4 +65,27 @@ public class AlgorithmTest {
         assertEquals(correct, result);
     }
 
+    @Test
+    public void itShouldReturnCollatzSequenceForGivenNumber() {
+        Algorithm algo = new Algorithm();
+
+        int baseNumber = 13;
+
+        ArrayList <Integer> result = algo.returnCollatzSequenceToOne(baseNumber);
+
+        ArrayList <Integer> correct = new ArrayList<>();
+        correct.add(13);
+        correct.add(40);
+        correct.add(20);
+        correct.add(10);
+        correct.add(5);
+        correct.add(16);
+        correct.add(8);
+        correct.add(4);
+        correct.add(2);
+        correct.add(1);
+
+        assertEquals(correct, result);
+    }
+
 }

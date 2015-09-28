@@ -28,12 +28,14 @@
             <entry file="file://$PROJECT_DIR$/src/Algorithm.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.6363636">
-                  <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+                  <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
                   <folding>
-                    <element signature="e#182#183#0" expanded="true" />
-                    <element signature="e#236#237#0" expanded="true" />
-                    <element signature="e#382#383#0" expanded="true" />
-                    <element signature="e#429#430#0" expanded="true" />
+                    <element signature="e#167#168#0" expanded="true" />
+                    <element signature="e#221#222#0" expanded="true" />
+                    <element signature="e#270#271#0" expanded="true" />
+                    <element signature="e#319#320#0" expanded="true" />
+                    <element signature="e#367#368#0" expanded="true" />
+                    <element signature="e#414#415#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -46,8 +48,8 @@
           <file leaf-file-name="AlgorithmTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/AlgorithmTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.36363637">
-                  <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.59090906">
+                  <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -75,8 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Algorithm.java" />
         <option value="$PROJECT_DIR$/tests/AlgorithmTest.java" />
+        <option value="$PROJECT_DIR$/src/Algorithm.java" />
       </list>
     </option>
   </component>
@@ -85,7 +87,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="29" />
-    <option name="width" value="1440" />
+    <option name="width" value="1439" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -409,7 +411,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1440" height="744" extended-state="0" />
+    <frame x="0" y="29" width="1439" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,10 +456,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -472,25 +476,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithm.java">
+    <entry file="file://$PROJECT_DIR$/tests/AlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6363636">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.59090906">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
           <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AlgorithmTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.6363636">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
