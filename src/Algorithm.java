@@ -12,4 +12,8 @@ public class Algorithm {
     public boolean getTestsAreWorkingStatus() {
         return this.testsAreWorkingStatus;
     }
+
+    public boolean isEven(int numberToCheck) {
+        return (numberToCheck % 2 == 0);
+    }
 }
