@@ -24,12 +24,12 @@ public class Algorithm {
 
         while(!reachedOne) {
             if(this.isEven(n)) {
-                n /= 2;
+                n = n / 2;
                 returnValue.add(n);
                 reachedOne = (n == 1);
             }
             else {
-                n *= 3 + 1;
+                n = (n * 3) + 1;
                 returnValue.add(n);
                 reachedOne = (n == 1);
             }
