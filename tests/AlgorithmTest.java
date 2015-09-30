@@ -71,7 +71,7 @@ public class AlgorithmTest {
 
         int baseNumber = 13;
 
-        ArrayList <Integer> result = algo.returnCollatzSequenceToOne(baseNumber);
+        ArrayList <Integer> result = algo.returnCollatzSequenceStoppingAtOne(baseNumber);
 
         ArrayList <Integer> correct = new ArrayList<>();
         correct.add(13);
@@ -84,6 +84,19 @@ public class AlgorithmTest {
         correct.add(4);
         correct.add(2);
         correct.add(1);
+
+        assertEquals(correct, result);
+    }
+
+    @Test
+    public void itShouldReturnWhichBaseNumbersCollatzSequenceHasTheLongestLength() {
+        Algorithm algo = new Algorithm();
+
+        int baseNumber = 2;
+        int stopNumber = 6;
+
+        int result = algo.findBaseNumberWithLongestCollatzSequence(baseNumber, stopNumber);
+        int correct = 6;
 
         assertEquals(correct, result);
     }

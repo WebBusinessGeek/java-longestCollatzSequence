@@ -16,7 +16,7 @@ public class Algorithm {
         return (numberToCheck % 2 == 0);
     }
 
-    public ArrayList <Integer> returnCollatzSequenceToOne(int baseNumber) {
+    public ArrayList <Integer> returnCollatzSequenceStoppingAtOne(int baseNumber) {
         ArrayList <Integer> returnValue = new ArrayList<>();
         returnValue.add(baseNumber);
         boolean reachedOne = false;
@@ -34,6 +34,22 @@ public class Algorithm {
                 reachedOne = (n == 1);
             }
         }
+        return returnValue;
+    }
+
+    public int findBaseNumberWithLongestCollatzSequence(int baseNumber, int stopNumber) {
+        int returnValue = 0;
+        int longestSequence = 0;
+
+        while(baseNumber <= stopNumber) {
+            int collatzSequenceSize = this.returnCollatzSequenceStoppingAtOne(baseNumber).size();
+            if(collatzSequenceSize > longestSequence) {
+                returnValue = baseNumber;
+                longestSequence = collatzSequenceSize;
+            }
+            baseNumber++;
+        }
+
         return returnValue;
     }
 }
